@@ -1,0 +1,357 @@
+.header{
+    padding: 5px;
+    text-align: center;
+    background:rgb(255, 255, 255);
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+.header img{
+   width: 50px;
+   height: auto;
+}
+.header .cap{
+   display: inline-block;
+    margin-left: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header ul{
+   margin: 0;
+}
+.header ul li {
+   display: inline-block;
+}
+.header ul li a{
+   display: inline-block;
+   text-decoration: none;
+   padding: 10px 8px;
+   font-size: 17px;
+   color: rgb(75, 67, 67);
+   font-family: system-ui;
+   font-weight: bold;
+   transition: .4s;
+}
+.header ul li a:hover{
+   background: rgb(255, 255, 255);
+   border-radius: 5px;
+}
+.header .btn-1{
+   border: 1px solid #bc9d9d;
+   border-radius: 10px;
+   padding: 7px 15px;
+   margin-top: 7px;
+   transition: .4s;
+   color: blue;
+   font-weight: 600;
+}
+.header .btn-1:hover{
+   border: 1px solid #ddd;
+   box-shadow: 1px 1px 1px 1px;
+   background: rgb(59, 59, 182);
+   color: white;
+}
+/*banner section*/
+
+.benner{
+   background-image: url(./img/02.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom center;
+   text-align: center;
+   height: 520px;
+   padding: 150px 0;
+   color:white;
+   
+}
+.benner p{
+   font-size: 20px;
+   word-spacing: 6px;
+   margin-top: 70px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.benner h1{
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-top: 20px;
+   padding: 0 5px;
+   
+}
+.benner .btn-2{
+   margin-top: 20px;
+   border-radius: 10px;
+   border: 1px solid #ddd;
+   color: brown;
+   margin-left: 9px;
+   padding: 5px 13px;
+   transition: .5s;
+}
+.benner .btn-2:hover{
+   background: rgb(122, 45, 45);
+   color: white;
+}
+
+/*video section*/
+.video-section{
+   margin-top: 100px;
+
+}
+.video-section h2{
+   word-spacing: 5px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+
+}
+.video-section p{
+   line-height: 25px;
+   word-spacing: 6px;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+.about{
+   margin-top: 50px;
+  text-align: center;
+}
+.about h1{
+   font-weight: bold;
+   word-spacing: 5px;
+   font-family: 'Courier New', Courier, monospace;
+}
+.about p{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+.about-card{
+   text-align: center;
+   padding: 20px;
+
+}
+.about-card span{
+   color: blue;
+   font-size:40px;
+ 
+}
+.about-card h3{}
+.about-card p{}
+.card-1{
+   border: 1px solid #ddd;
+   margin-top: 30px;
+   padding: 20px 10px;
+   transition: .5s;
+   border-radius: 10px;
+}
+.card-1:hover{
+   background:blue;
+   box-shadow: 1px 1px 4px 1px #ddd;
+   color: white;
+   border-radius: 10px;
+}
+.card-1:hover span{
+   color: white;
+}
+
+
+/*today app*/
+.today-app{
+   margin-top: 100px;
+}
+.today-app .app-title{
+   margin-bottom: 20px;
+   padding: 6px;
+   font-family: monospace;
+}
+.today-app .content{
+   border: 1px solid #ddd;
+   height: 500px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #ddd;
+}
+.today-app .content .dolor{
+   padding: 20px ;
+   transition: .5s;
+}
+.today-app .content .dolor span{
+   color: black;
+}
+.today-app .content ul{
+   margin: 0;
+     list-style-type:none;
+}
+.today-app .content  ul li{
+   padding: 10px 0px;
+   text-align: left;
+}
+.today-app .content button{
+   border-radius: 5px;
+   border: none;
+   background: chocolate;
+   padding: 5px 26px;
+   color: white;
+   margin-top: 15px;
+   transition: .4s;
+}
+.content:hover .dolor{
+   background: blue;
+   color: white;
+   border-radius: 5px;
+}
+.content:hover .dolor span{
+  
+   color: white;
+}
+.content:hover button{
+   background: blue;
+   color: white;
+   border-radius: 5px;
+   box-shadow: 1px 1px 2px 1px black;
+}
+
+
+/*trem member*/
+
+.trem-member{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.trem-member h2{
+   padding: 27px 0;
+   font-family: cursive;
+}
+.trem-member .img{
+   border: 1px solid #ddd;
+   padding: 10px;
+   transition: .8s;
+   height: 330px;
+}
+.trem-member .img img{}
+.trem-member .img h3{
+   text-align: left;
+    margin-left: 19px;
+    font-size: 18px;
+    font-family: fantasy;
+   transition: .3s;
+}
+.trem-member .img p{
+   text-align: left;
+   margin-left: 19px;
+   font-family: cursive;
+   transition: .3s;
+
+}
+.img:hover{
+  background: gray;
+   border-radius: 5px;
+   color: white;
+   box-shadow: 1px 1px 1px #ddd;
+}
+.img:hover img{
+   width: 220px;
+   transform: scale(1.0);
+}
+
+
+/*subscribe*/
+
+.subcribe{
+   margin-top: 100px;
+   padding: 20px 0;
+}
+.subcribe .sub{
+
+}
+.subcribe .sub p{
+   font-family: monospace;
+}
+.subcribe .sub h2{
+   font-family: cursive;
+   margin-bottom: 25px;
+}
+.subcribe .sub #form{
+   padding: 4px 27px;
+   border: none;
+   background: #ddd;
+   border-radius: 5px;
+   box-shadow: 1px 0px 3px #ddd;
+}
+.subcribe .sub button{
+   padding: 5px 31px;
+   margin-left: 20px;
+   background: blueviolet;
+   border-radius: 5px;
+   border: none;
+   color: white;
+   transition: .5s;
+}
+.subcribe .sub button:hover{
+   background: blue;
+   color: white;
+   border-radius: 5px;
+}
+
+
+/*what new*/
+.what-new{
+   margin-top: 100px;
+   text-align: left;
+}
+.what-new .new-content{
+   text-align: left;
+   background: whitesmoke;
+   padding: 20px;
+   height: 300px;
+   border-radius: 5px;
+   font-family: cursive;
+}
+.what-new .new-content-2{
+   text-align: left;
+   background: whitesmoke;
+   padding: 20px;
+   height: 300px;
+   border-radius: 5px;
+   font-family: cursive;
+}
+.what-new .new-content h2{
+   margin-bottom: 40px;
+   font-family: cursive;
+   margin-left: 23px;
+}
+.what-new img{
+   max-width: 100%;
+}
+
+/*contact us*/
+
+.contact-us{}
+.contact-us .bg-color{
+   border-radius: 10px;
+   margin-top: 100px;
+   padding: 26px 30px;
+}
+.contact-us .map{}
+.contact-us .contact{
+   font-family: system-ui;
+   text-align: left;
+}
+.contact-us .contact .form-contact-us{
+   margin-top: 15px;
+}
+.contact-us .contact .contact-button{
+   margin-top: 20px;
+   padding: 5px 40px;
+   font-size: 15px;
+}
+
+
+/*footer section*/
+.footer{
+   margin-top: 20px;
+}
+.footer .footer-item{
+   padding: 20px 0;
+}
